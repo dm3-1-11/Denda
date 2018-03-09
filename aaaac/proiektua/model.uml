@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_TcjvYPX7EeelqIHdYBwL5w" name="Karga" visibility="public" URI="">
+  <packagedElement xmi:type="uml:Class" xmi:id="_gVX_cPX8EeelqIHdYBwL5w" name="Kontaktua" visibility="public">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lWRbcPeGEeez5pFDoaO3vg" name="helbidea">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pnjDYPeGEeez5pFDoaO3vg" name="email">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qy2Y4PeGEeez5pFDoaO3vg" name="izena">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_r-BLgPeGEeez5pFDoaO3vg" name="telefonoa">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_oagPUPYDEeelqIHdYBwL5w" name="Libreta">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xouEgPeGEeez5pFDoaO3vg" name="GehituKontaktuak">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_57h20Pt5EeeVVaD1cPcEiA" name="in kontaktua"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__x3YEPt5EeeVVaD1cPcEiA" name="Operation1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1x51gPeIEeez5pFDoaO3vg" memberEnd="_1x7DoveIEeez5pFDoaO3vg _1x9f4PeIEeez5pFDoaO3vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1x7DoPeIEeez5pFDoaO3vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1x7DofeIEeez5pFDoaO3vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1x9f4PeIEeez5pFDoaO3vg" name="kontaktua" type="_gVX_cPX8EeelqIHdYBwL5w" aggregation="composite" association="_1x51gPeIEeez5pFDoaO3vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1x7DoveIEeez5pFDoaO3vg" name="libreta" type="_oagPUPYDEeelqIHdYBwL5w" association="_1x51gPeIEeez5pFDoaO3vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_A-62gPt5EeeVVaD1cPcEiA" name="Kontaktu taldea">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DFObsPt5EeeVVaD1cPcEiA" name="Izena">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_g4a-svt5EeeVVaD1cPcEiA" name="libreta" type="_oagPUPYDEeelqIHdYBwL5w" association="_g4aXoPt5EeeVVaD1cPcEiA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8k7skPt6EeeVVaD1cPcEiA" name="kontaktua" type="_gVX_cPX8EeelqIHdYBwL5w" aggregation="composite" association="_8k53YPt6EeeVVaD1cPcEiA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LdpfMPt5EeeVVaD1cPcEiA" name="Kontua">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kEQokPt5EeeVVaD1cPcEiA" name="emaila">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mFbPEPt5EeeVVaD1cPcEiA" name="izena">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_r2Atovt5EeeVVaD1cPcEiA" name="libreta" type="_oagPUPYDEeelqIHdYBwL5w" aggregation="shared" association="_r2AGkPt5EeeVVaD1cPcEiA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g4aXoPt5EeeVVaD1cPcEiA" memberEnd="_g4a-svt5EeeVVaD1cPcEiA _g4cM0Pt5EeeVVaD1cPcEiA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g4a-sPt5EeeVVaD1cPcEiA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g4a-sft5EeeVVaD1cPcEiA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_g4cM0Pt5EeeVVaD1cPcEiA" name="kontaktu taldea" type="_A-62gPt5EeeVVaD1cPcEiA" aggregation="composite" association="_g4aXoPt5EeeVVaD1cPcEiA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r2AGkPt5EeeVVaD1cPcEiA" memberEnd="_r2Atovt5EeeVVaD1cPcEiA _r2Ato_t5EeeVVaD1cPcEiA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r2AtoPt5EeeVVaD1cPcEiA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r2Atoft5EeeVVaD1cPcEiA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r2Ato_t5EeeVVaD1cPcEiA" name="kontua" type="_LdpfMPt5EeeVVaD1cPcEiA" association="_r2AGkPt5EeeVVaD1cPcEiA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8k53YPt6EeeVVaD1cPcEiA" memberEnd="_8k53Y_t6EeeVVaD1cPcEiA _8k7skPt6EeeVVaD1cPcEiA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8k53Yft6EeeVVaD1cPcEiA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8k53Yvt6EeeVVaD1cPcEiA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8k53Y_t6EeeVVaD1cPcEiA" name="kontaktu taldea" type="_A-62gPt5EeeVVaD1cPcEiA" association="_8k53YPt6EeeVVaD1cPcEiA"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CwaI4PYAEeelqIHdYBwL5w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CwclIPYAEeelqIHdYBwL5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
