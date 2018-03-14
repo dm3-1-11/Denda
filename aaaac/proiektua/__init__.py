@@ -5,14 +5,6 @@ class Artikulo:
         self.Kodea=Kodea
         self.Izena=Izena
         self.Prezioa=Prezioa
-
-class Usuario:
-       
-    def __init__(self, NAN, Izena, Abizena):
-        
-        self.NAN=NAN
-        self.Izena=Izena
-        self.Abizena=Abizena
         
 class Bideo_jokoak(Artikulo):
     
@@ -45,3 +37,25 @@ class Liburuak(Artikulo):
         self.argitaratu_eguna=argitaratu_eguna
         self.editoriala=editoriala
         self.titulua=titulua
+        
+
+class Usuario:
+       
+    def __init__(self, NAN, Izena, Abizena):
+        
+        self.NAN=NAN
+        self.Izena=Izena
+        self.Abizena=Abizena
+        
+class Erosleak(Usuario):
+    
+    def __init__(self, erosle_kodea):
+        
+        self.erosle_kodea=erosle_kodea
+        
+class Langileak(Usuario):
+    
+    def __init__(self, kargua, langile_kodea):
+        
+        self.kargua=kargua
+        self.langile_kodea=langile_kodea
