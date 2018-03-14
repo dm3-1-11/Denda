@@ -53,9 +53,3 @@ class Erosleak(Usuario):
         
         self.erosle_kodea=erosle_kodea
         
-class Langileak(Usuario):
-    
-    def __init__(self, kargua, langile_kodea):
-        
-        self.kargua=kargua
-        self.langile_kodea=langile_kodea
