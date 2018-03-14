@@ -48,7 +48,7 @@ class Usuario:
         self.Abizena=Abizena
         
 class Erosleak(Usuario):
-    
+
     def __init__(self, erosle_kodea):
         
         self.erosle_kodea=erosle_kodea
