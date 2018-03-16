@@ -8,9 +8,9 @@ class Artikulo:
         
 class Bideo_jokoak(Artikulo):
     
-    def __init__(self,Generoa, Empresa, plataforma, mult_lokal, mult_online, PEGI, titulua):
+    def __init__(self,Genero, Empresa, plataforma, mult_lokal, mult_online, PEGI, titulua):
         
-        self.Generoa=Generoa
+        self.Genero=Genero
         self.Empresa=Empresa
         self.plataforma=plataforma
         self.mult_lokal=mult_lokal
