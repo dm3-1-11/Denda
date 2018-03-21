@@ -41,11 +41,12 @@ class Liburuak(Artikulo):
 
 class Usuario:
        
-    def __init__(self, NAN, Izena, Abizena):
+    def __init__(self, NAN, Izena, Abizena,algo):
         
         self.NAN=NAN
         self.Izena=Izena
         self.Abizena=Abizena
+        self.algo=algo
         
 class Erosleak(Usuario):
 
