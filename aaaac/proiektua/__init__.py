@@ -27,7 +27,7 @@ class Consola(Artikulo):
         
 class Liburuak(Artikulo):
     
-    def __init__(self,ISBN,Autor, Generoa,paginas, argitaletxea,argitaratu_eguna, editoriala, titulua, alg):
+    def __init__(self,ISBN,Autor, Generoa,paginas, argitaletxea,argitaratu_eguna, editoriala, titulua, algo):
         
         self.ISBN=ISBN
         self.Autor=Autor
@@ -37,7 +37,7 @@ class Liburuak(Artikulo):
         self.argitaratu_eguna=argitaratu_eguna
         self.editoriala=editoriala
         self.titulua=titulua
-        self.alg=alg
+        self.algo=algo
         
 
 class Usuario:
