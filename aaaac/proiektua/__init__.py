@@ -2,7 +2,7 @@ class Artikulo:
     
     def __init__(self, Kodea, Izena, Prezioa):
         
-        self.Kodea=Kodea
+        self.Kodea=Kodea 
         self.Izena=Izena
         self.Prezioa=Prezioa
         
@@ -27,7 +27,7 @@ class Consola(Artikulo):
         
 class Liburuak(Artikulo):
     
-    def __init__(self,ISBN,Autor, Generoa,paginas, argitaletxea,argitaratu_eguna, editoriala, titulua):
+    def __init__(self,ISBN,Autor, Generoa,paginas, argitaletxea,argitaratu_eguna, editoriala, titulua, algo):
         
         self.ISBN=ISBN
         self.Autor=Autor
@@ -37,6 +37,7 @@ class Liburuak(Artikulo):
         self.argitaratu_eguna=argitaratu_eguna
         self.editoriala=editoriala
         self.titulua=titulua
+        self.algo=algo
         
 
 class Usuario:
