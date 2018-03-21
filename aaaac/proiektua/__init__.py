@@ -42,11 +42,11 @@ class Liburuak(Artikulo):
 
 class Usuario:
        
-    def __init__(self, NAN, Izena, Abizena):
+    def __init__(self, NAN, Izena, Abizen):
         
         self.NAN=NAN
         self.Izena=Izena
-        self.Abizena=Abizena
+        self.Abizen=Abizen
         
 class Erosleak(Usuario):
 
