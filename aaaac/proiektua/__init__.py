@@ -60,3 +60,4 @@ class Langileak(Usuario):
         
         self.kargua=kargua
         self.langile_kodea=langile_kodea
+print('kaixo')
